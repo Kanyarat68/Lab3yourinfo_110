@@ -68,7 +68,7 @@ class _InputwidgetsState extends State<Inputwidgets> {
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
-                  '--- Information ---',
+                  'Information',
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ),
@@ -104,7 +104,7 @@ class _InputwidgetsState extends State<Inputwidgets> {
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
-                  '--- อาหารที่ชอบที่ชอบ ---',
+                  ' อาหารที่ชอบ ',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
@@ -173,7 +173,7 @@ class _InputwidgetsState extends State<Inputwidgets> {
               fillColor: Colors.white,
               filled: true,
               labelText: 'name',
-              prefixIcon: Icon(Icons.vpn_key),
+              prefixIcon: Icon(Icons.person),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(32)),
               )),
@@ -335,7 +335,7 @@ Widget line2() => Container(
           Expanded(
               child: Container(
             padding: EdgeInsets.only(left: 30, right: 30),
-            child: Divider(color: Colors.grey.shade500, thickness: 1),
+            child: Divider(color: Colors.grey.shade800, thickness: 1),
           )),
         ],
       ),
